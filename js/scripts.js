@@ -1,7 +1,6 @@
 $(function(){
-  $("p").click(function(){
-    $(".play").fadeToggle();
-    $(".startOver").fadeToggle();
-
-  });
+  $(".card>p").click(function(){
+    $(this).toggle();
+    $(this).siblings().toggle();
+    });
 });
