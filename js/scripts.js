@@ -1,6 +1,5 @@
 $(function(){
-  $(".card>p").click(function(){
-    $(this).toggle();
-    $(this).siblings().toggle();
+  $(".card").click(function(){
+    $(this).children().toggle();
     });
 });
